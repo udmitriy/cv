@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dmitriy Ugarov's Contacts</title>
+</head>
+
+<body>
+	<h1>My Contact Details</h1>
+	<p>Here will be my address</p>
+	<p>Here is my phone</p>
+	<P>Here is my email</P>
+	<br>
+	<hr>
+	<p>If you want to contacts me fill the form</p>
+	<form action="mailto:dmitriy.ugarov@gmail.com" method="POST" enctype="text/plain">
+		<table cellspacing="10">
+			<tr>
+				<td><label>Yout name</label></td>
+				<td><input name="yourName" type="text"></td>
+			</tr>
+			<tr>
+				<td><label for="">Your e-mail</label></td>
+				<td><input type="email" name="yourEmail" id=""></td>
+			</tr>
+
+			<tr>
+				<td><label for="">Your message</label></td>
+				<td><textarea name="yourMessage" id="" cols="20" rows="5"></textarea></td>
+			</tr>
+		</table>
+
+		<input type="submit">
+
+	</form>
+
+</body>
+
+</html>
